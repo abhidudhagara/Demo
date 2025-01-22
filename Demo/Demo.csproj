@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="All_FUN.aspx" />
     <Content Include="File_Upload.aspx" />
+    <Content Include="multiview.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="File_Upload.aspx.designer.cs">
       <DependentUpon>File_Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="multiview.aspx.cs">
+      <DependentUpon>multiview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="multiview.aspx.designer.cs">
+      <DependentUpon>multiview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

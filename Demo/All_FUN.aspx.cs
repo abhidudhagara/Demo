@@ -18,5 +18,10 @@ namespace Demo
         {
             Response.Redirect("File_Upload.aspx");
         }
+
+        protected void btnMultiView_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("multiview.aspx");
+        }
     }
 }

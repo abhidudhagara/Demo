@@ -11,7 +11,8 @@
         <div>
             <asp:Button ID="btnfileupload" runat="server" Text="File Upload" OnClick="btnfileupload_Click" />
             <br />
-            <asp:Button ID="btnMultiView" runat="server" Text="Multi View" />
+            <br />
+            <asp:Button ID="btnMultiView" runat="server" Text="Multi View" OnClick="btnMultiView_Click" />
         </div>
     </form>
 </body>
