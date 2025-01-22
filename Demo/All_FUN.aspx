@@ -13,6 +13,9 @@
             <br />
             <br />
             <asp:Button ID="btnMultiView" runat="server" Text="Multi View" OnClick="btnMultiView_Click" />
+            <br />
+            <br />
+            <asp:Button ID="btnvalidation" runat="server" Text="Validation" OnClick="btnvalidation_Click" />
         </div>
     </form>
 </body>

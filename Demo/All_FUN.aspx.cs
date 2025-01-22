@@ -23,5 +23,10 @@ namespace Demo
         {
             Response.Redirect("multiview.aspx");
         }
+
+        protected void btnvalidation_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("validation.aspx");
+        }
     }
 }

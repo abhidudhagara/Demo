@@ -11,7 +11,7 @@ namespace Demo
 {
 
 
-    public partial class All_FUN
+    public partial class validation
     {
 
         /// <summary>
@@ -24,30 +24,30 @@ namespace Demo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnfileupload control.
+        /// txtfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnfileupload;
+        protected global::System.Web.UI.WebControls.TextBox txtfname;
 
         /// <summary>
-        /// btnMultiView control.
+        /// RequiredFieldValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMultiView;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// btnvalidation control.
+        /// btnsubmit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnvalidation;
+        protected global::System.Web.UI.WebControls.Button btnsubmit;
     }
 }
